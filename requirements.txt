@@ -27,8 +27,12 @@ opencv-python
 Pillow
 huggingface_hub
 gradio
-xformers==0.0.24
-torch_scatter==2.1.2
+# xformers==0.0.24
+# https://github.com/facebookresearch/xformers
+# !pip install torch-scatter -f https://data.pyg.org/whl/torch-2.6.0+cu124.html
+# torch_scatter==2.1.2
+# https://github.com/rusty1s/pytorch_scatter/tree/master
+# !pip3 install -U xformers --index-url https://download.pytorch.org/whl/cu124
 moviepy==1.0.3
 pydantic
 open3d
